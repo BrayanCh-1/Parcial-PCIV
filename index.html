@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro de Talleres Universitarios</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <h1>Registro de Talleres Universitarios</h1>
+
+    <form id="form-inscripcion">
+
+        <label>Nombre del estudiante:</label>
+        <input type="text" id="nombre" placeholder="Ingrese su nombre">
+
+        <label>Seleccione el taller:</label>
+        <select id="taller">
+            <option value="">Seleccione un taller</option>
+            <option value="Programación Web">Programación Web</option>
+            <option value="Ciberseguridad">Ciberseguridad</option>
+            <option value="Base de Datos">Base de Datos</option>
+        </select>
+
+        <label>Modalidad:</label>
+        <select id="modalidad">
+            <option value="">Seleccione modalidad</option>
+            <option value="Presencial">Presencial</option>
+            <option value="Virtual">Virtual</option>
+        </select>
+
+        <button type="submit">Registrar</button>
+
+    </form>
+
+    <h2>Inscripciones registradas:</h2>
+
+    <div id="lista-inscripciones"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

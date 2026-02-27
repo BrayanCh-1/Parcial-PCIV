@@ -13,7 +13,7 @@ Enunciado:
 
 En muchas universidades, la inscripción a talleres académicos se realiza de forma manual o mediante formularios poco organizados. Esto puede generar problemas como: desorden en el registro, pérdida de información, duplicidad de inscripciones, entre otros.
 
-Ante esta problemática se propone el desarrollo de una página web que permita el registro de estudinates a distintos talleres universitarios de forma dinámica, validada, mostrando en tiempo real la insripción.
+Ante esta problemática se propone el desarrollo de una página web que permita el registro de estudiantes a distintos talleres universitarios de forma dinámica, validada, mostrando en tiempo real la inscripción.
 
 Sector al que va enfocado:
 
