@@ -23,7 +23,7 @@ La solución está dirigida principalmente al sector educativo (universidades).
 
 # Preguntas:
 
-o ¿Qué valor agregado tiene el uso de webcomponents a su proyecto?
+1. ¿Qué valor agregado tiene el uso de webcomponents a su proyecto?
 
 El uso de WebComponents permite crear un elemento personalizado llamado <tarjeta-inscripcion>, lo que aporta organización y reutilización del código.
 
@@ -37,7 +37,9 @@ Facilita el mantenimiento futuro.
 
 En lugar de crear manualmente cada tarjeta con muchos div, usamos el componente personalizado que ya contiene su estructura interna.
 
-o ¿De qué forma manipularon los datos sin recargar la página?
+
+
+2. ¿De qué forma manipularon los datos sin recargar la página?
 
 Manipulamos los datos usando JavaScript con el evento submit del formulario.
 
@@ -45,7 +47,9 @@ Se utilizó: e.preventDefault()
 
 Esto evita que el formulario recargue la página.
 
-o ¿De qué forma validaron las entradas de datos? Expliquen brevemente
+
+
+3. ¿De qué forma validaron las entradas de datos? Expliquen brevemente
 
 Se realizó validación manual en JavaScript antes de crear la tarjeta.
 
@@ -61,7 +65,9 @@ Si no cumple las condiciones, se muestra un alert() y se detiene el proceso con 
 
 Esto evita que se registren datos incorrectos.
 
-o ¿Cómo manejaría la escalabilidad futura en su página?
+
+
+4. ¿Cómo manejaría la escalabilidad futura en su página?
 
 Para escalar el proyecto en el futuro se podría:
 
